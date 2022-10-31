@@ -57,11 +57,4 @@ python methylation_filter_false_positive.py -i <methylation_table> -db <false_po
 
 Here we show a sample demo to display the CpG sites (filtered and unfiltered) in human mitochondrial DNA with default argument sequenced by R10.4 flow cell. More details can be found in result part of article. 
 
-![Image text](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/degoes-consulting/lambdaconf-2015/master/speakers/jdegoes/intro-purescript/presentation.pdf) 
-
-
-
-
-
-
-
+![Image text](https://github.com/lrslab/Benchmarking_for_ONT_reads/blob/main/demo_picture/Rplot01_WGS_R10.4_MT_5mC.jpg) 
