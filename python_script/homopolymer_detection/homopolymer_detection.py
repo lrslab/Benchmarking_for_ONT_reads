@@ -1,3 +1,7 @@
+"""
+minimap2 -ax map-ont ref.mmi input.fastq -t 20 --secondary=no --MD -L, please use this to map
+"""
+
 import argparse
 import pysam
 import re
@@ -94,9 +98,10 @@ def homopolymer_from_bam(input_bamfile, chrom):
 		for base in read_valid_pair:
 			#start
 			if homoploymer_ref == "":
-				homoploymer_ref = str(base[2]).upper()
-				homoploymer_read = str(get_base_alignment(base))
-				homoploymer_ref_pos.append(base[1])
+				if get_base_alignment(base) != "I":
+					homoploymer_ref = str(base[2]).upper()
+					homoploymer_read = str(get_base_alignment(base))
+					homoploymer_ref_pos.append(base[1])
 
 			else:
 					if base[2] == None:
