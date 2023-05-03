@@ -7,7 +7,7 @@ import pysam
 import re
 
 parser = argparse.ArgumentParser(description="python homopolymer_detection.py -i ../example/test.bam -r 10 > chr10_homopolymer.info")
-parser.add_argument("-i", "--input", type=str, metavar="", required=True, help="input the bam file")
+parser.add_argument("-in", "--input", type=str, metavar="", required=True, help="input the bam file")
 parser.add_argument("-r", "--chromosome", type=str, metavar="", required=True, help="For one chromosome, eg. 1 refer to your ref; or ALL, eg. ALL")
 args = parser.parse_args()
 
