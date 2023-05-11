@@ -40,7 +40,7 @@ A description of these arguments are as follows:
 1	10496	10497	0.0
 ```
 
-2. <false_positive_sites_database> - This is false positive database. The databases including 5mC (Nanopore R10.4 and R9.4.1) and 5hmC (Nanopore R10.4 and R9.4.1) are available.
+2. <false_positive_sites_database> - This is false positive database. The databases including 5mC (Nanopore R10.4 and R9.4.1) and 5hmC (Nanopore R10.4 and R9.4.1) are available (https://figshare.com/account/home#/projects/167018).
 3. <output_table>  - Any name you want for result.
 
 
